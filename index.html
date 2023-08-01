@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="faried smart login">
+    <link rel="icon" type="image/x-icon" href="./icon/favicon.ico" />
+    <title>smart login</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body >
+    <section id="first-bage" class="bg-bod vh-100 overflow-auto ">
+      <div class="w-50 m-auto bg-bod text-center shadow-exl mt-5 ">
+      <div class="container text-center p-5">
+        <h1 class="input-color"><span class="fw-bolder text-decoration-underline text-success ">F</span> Login System</h1>
+        <input id="sign-email" type="email" class="form-control mt-4 bg-bod text-light" placeholder="enter your e-mail">
+        <input id="sign-password" type="password" class="form-control mt-4 bg-bod text-light" placeholder="enter your password">
+        <p id="error-1" class=" text-danger opacity-0">password is't correct</p>
+        <button id="sign-btn" class="btn border border-1 mt-4 w-100  input-color button">login</button>
+        <p class="text-light mt-1">You have an account? <a href="#" id="first-transform" class="text-decoration-none text-light link-hov"> Sign Up</a></p>
+      </div>
+    </div>
+    </section>
+    <section id="sec-bage" class="bg-bod vh-100 overflow-auto d-none">
+      <div class="w-50 m-auto bg-bod text-center shadow-exl mt-5 ">
+      <div class="container text-center p-5">
+        <h1 class="input-color"><span class="fw-bolder text-decoration-underline text-success">F</span> Login System</h1>
+        <input id="reg-name" type="text" class="form-control mt-3 bg-bod text-light" placeholder="enter your name">
+        <input id="reg-email" type="email" class="form-control mt-3 bg-bod text-light" placeholder="enter your e-mail">
+        <input id="reg-password" type="password" class="form-control mt-3 bg-bod text-light" placeholder="enter your password">
+        <button id="reg-btn" class="btn border border-1 mt-4 w-100  input-color button">Sign Up</button>
+        <p class="text-light mt-1">You have an account? <a href="#" id="sec-transform" class="text-decoration-none text-light link-hov"> Sign In</a></p>
+      </div>
+    </div>
+    </section>
+    <section id="thr-bage" class="bg-bod vh-100 overflow-auto d-none">
+      <nav class="navbar navbar-expand-lg input-color shadow-lg">
+        <div class="container ">
+          <a class="navbar-brand text-light " href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
+            <button class="btn text-light border border-1 border-warning warning-hover out">logout</button>
+          </div>
+        </div>
+      </nav>
+      <div class="w-50 bg-bod text-center shadow-exl mt-5 m-auto ">
+      <div class="container text-center p-5">
+        <h1 class="input-color"><span class="name fw-bolder  "></span></h1>
+      </div>
+    </div>
+    </section>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

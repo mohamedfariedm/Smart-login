@@ -1,0 +1,33 @@
+
+.bg-bod{
+  background-image: linear-gradient(0,#24353fb3,#24353F),url(../images/hacker-infiltrate-mind-iiypdl5lb9mwcv9f.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+::placeholder{
+  color: aliceblue !important;
+  opacity: .7 !important;
+}
+
+.input-color{
+  color: #17A0B5;
+}
+.shadow-exl{
+box-shadow: black 10px 10px 70px;
+}
+.link-hov:hover{
+  text-decoration: underline !important;
+}
+.form-control:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #24353F ;
+}
+.button:hover{
+  background-color: #24353F !important;
+  color: aliceblue !important;
+  transform: scale(1.01);
+}
+.warning-hover:hover{
+  background-color: rgba(203, 141, 25, 0.829);
+}
