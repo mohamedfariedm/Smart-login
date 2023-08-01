@@ -55,13 +55,18 @@ localStorage.setItem("operator",operator);
 });
 
 registerButton.addEventListener("click",function(){
+    if(registerName.value!=""&&registerMail.value!=""&&registerPassword.value!=""){
     var clint={
         name:registerName.value,
         mail:registerMail.value,
         password:registerPassword.value,
     };
     clints.push(clint);
-    localStorage.setItem("clints",JSON.stringify(clints))
+    localStorage.setItem("clints",JSON.stringify(clints));
+    document.querySelector(".erore-2").innerHTML="sucsess";
+    }else{
+        document.querySelector(".erore-2").innerHTML="you must fill all field";
+    }
 });
 
 function serchName(mail){
