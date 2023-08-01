@@ -29,6 +29,10 @@ if(operator=="register"){
     firstBage.classList.add("d-none");
     thirBage.classList.replace("d-none","d-block")
     document.querySelector(".name").innerHTML="welcome "+clints[lastIndex].name;
+}else{
+    secBage.classList.add("d-none");
+    thirBage.classList.add("d-none");
+    firstBage.classList.replace("d-none","d-block");
 }
 
 
@@ -91,5 +95,6 @@ logOut.addEventListener("click",function(){
     secBage.classList.add("d-none");
     thirBage.classList.add("d-none");
     firstBage.classList.replace("d-none","d-block");
-
+    operator="";
+    localStorage.setItem("operator",operator);
 })
